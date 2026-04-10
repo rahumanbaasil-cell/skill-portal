@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Skill Share - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💙 STUDENT SKILL SHARE 🖤</h1>
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="text" id="skills" placeholder="Enter Your Skills">
+
+        <p>🖼 Upload Profile Image</p>
+        <input type="file" id="imageInput" accept="image/*">
+
+        <p>📄 Upload Document</p>
+        <input type="file" id="docInput">
+
+        <button onclick="saveUser()">💾 Submit Project</button>
+        <button onclick="displayUsers()">👀 See All Submissions</button>
+
+        <h2>📋 All Submissions</h2>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
